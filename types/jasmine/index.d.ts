@@ -606,7 +606,6 @@ declare namespace jasmine {
         identity: string;
         and: SpyAnd;
         calls: Calls;
-        mostRecentCall: { args: any[]; };
         argsForCall: any[];
     }
 
